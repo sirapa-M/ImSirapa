@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dr. Sirapa</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51fec65d97.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  	<div id="preloader"></div>
+  	<div class="scrollTop" onclick="scrollToTop();"></div>
+  	<div id="header">
+  		<div class="container">
+  				<nav>
+  					<img src= "images/logo.jpg" class= "logo">
+  					<ul id= "sidemenu">
+  						<li><a href="#header">Home</a><li>
+  						<li><a href="#about">About</a><li>
+  						<li><a href="#services">Services</a><li>
+  						<li><a href="#portfolio">Portfolio</a><li>
+  						<li><a href="#contact">Contact</a><li>
+  						<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+  					</ul>
+  					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  					
+  				</nav>
+  			    <div class="header-text">
+  			    	<p><span class="auto-type"></span></p>
+  			    	<h1>Hi, I'm <span>Sirapa</span><br>Maharjan from KTM</h1>
+  			    </div>
+  		</div>
+  	</div>
+  	<!-- -------------about-------------- -->	
+  		<div id= "about">
+  			<div class= "container">
+  				<div class="row">
+  					<div class="about-col-1">
+  						<img src="images/background.jpg">
+  					</div>
+  					<div class="about-col-2">
+  						<h1 class="sub-title">About Me</h1>
+  						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br><i>(which in short, means i could write a book about you, but don't you enough to write its sequel, so you need to tell me more if this part is to be completed.)</i></p>
+
+  						<div class="tab-titles">
+  							<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+  							<p class="tab-links" onclick="opentab('experience')">Experience</p>
+  							<p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                        	<ul>
+                        		<li><span>Fall guys</span><br>Pro at fall guys</li>
+                        		<li><span>Among us</span><br>A retired veteran</li>
+                        		<li><span>Crochet & Knitting</span><br>Currently making a highly sophisticated scarf, one of its kind</li>
+                        		<li><span>A medical officer</span><br>The least important skill</li>
+                        	</ul>	
+                        </div>
+                        <div class="tab-contents" id="experience">
+                        	<ul>
+                        		<li><span>2022-202_</span><br>MO, Jiri district hospital</li>
+                        		<li><span>2021-2022</span><br>Internship at Faisalabad medical college</li>
+                        		
+                        	</ul>	
+                        </div>
+                        <div class="tab-contents" id="education">
+                        	<ul>
+                        		
+                        		<li><span>2014</span><br>MBBS | Faisalabad medical college</li>
+                        		<li><span>2012</span><br>High School | Modern Indian School<li>
+                        	</ul>	
+                        </div>
+  					</div>	
+  				</div>
+  			</div>
+  		</div>
+  	<!-- -----------------------------services----------------------- -->
+  	<div id="services">
+  		<div class="container">
+  			<h1 class="sub-title">My Services</h1>
+  			<div class="services-list">
+  				<div>
+  					<i class="fa-solid fa-stethoscope"></i>
+  					<h2>General Practitioner</h2>
+  					<p>Treat all common medical conditions and refer patients to hospitals and other medical services for urgent and specialist treatment</p>
+  					
+  				</div>
+  				<div>
+  					<i class="fa-solid fa-heart-pulse"></i>
+  					<h2>Cardiac Anesthesia</h2>
+  					<p>Preoperative, intraoperative, and postoperative care of adult and pediatric patients undergoing cardiothoracic surgery and related invasive procedures.</p>
+  					
+  				</div>
+  				<div>
+  					<i class="fa-solid fa-pills"></i>
+  					<h2>Palliative Medicine</h2>
+  					<p>Improves the quality of life of patients and that of their families who are facing challenges associated with life-threatening illness, whether physical, psychological, social or spiritual</p>
+  					
+  				</div>
+  			</div>
+        </div>
+  	</div>
+
+  	<!-- -----------------------------------portfolio--------------------- -->
+  	<div id="portfolio">
+  		<div class= "container">
+  			<h1 class="sub-title">My Work</h1>
+  			<div class= "work-list">
+  				<div class= "work">
+  					<img src="images/work-1.jpg">
+  					<div class="layer">
+  						<h3>OPD & ER services</h3>
+  						<p>Worked as medical officer, providing excellent opd services for 2 years. Also an emergency service provider, crushing emergencies before they can even emerge.</p>
+  					</div>
+  				</div>
+  				<div class= "work">
+  					<img src="images/work-2.jpg">
+  					<div class="layer">
+  						<h3>Imaging tests</h3>
+  						<p>Performed imaging tests, operating USG machines & many others, expertly for 2 years.</p>
+  					</div>
+  				</div>
+  				<div class= "work">
+  					<img src="images/work-3.jpg">
+  					<div class="layer">
+  						<h3>Post-Mortems</h3>
+  						<p> Sometimes being excellent, crushing & expert isn't enough. So, I've excelled in post-mortems too.</p>
+  					</div>
+  				</div>
+  			</div>
+  			<a href="SeeMore.html" class="btn">See more</a>
+  		</div>
+  	</div>
+<!-- -------------------------------------contact------------------------- -->
+<div id="contact">
+		
+	<div class="container">
+		<h3><q><i>Whether it's medical advice or marriage proposal, just hit me up.</i></q></h3><br>
+		<div class="row">
+			<div class="contact-left">
+					<!--<h1 class="sub-title">Contact Me</h1>-->
+				
+				
+				<p><i class="fa-solid fa-envelope"></i> potato@gmail.com</p>
+				<p><i class="fa-solid fa-phone"></i> 0123696969</p>
+				<div class="social-icons">
+					<a href=""><i class="fa-brands fa-discord"></i></a>
+					<a href=""><i class="fa-brands fa-telegram"></i></a>
+				</div>
+				<a href="images/cv.jpg" download class="btn btn2">Download CV</a>
+			</div>
+			<div class="contact-right">
+				<form name="submit-to-google-sheet">
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="Email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+				</form>
+				<span id="msg"></span>
+ 			</div>   
+		</div>   
+ 	</div> 
+ 	<div class="copyright">
+ 		<p>Made with <i class="fa-solid fa-heart"></i> by The pond</p>
+
+ 	</div>  
+</div>
+  	<script>
+  		var tablinks = document.getElementsByClassName("tab-links");
+  		var tabcontents = document.getElementsByClassName("tab-contents");
+
+  		function opentab(tabname){
+  			for(tablink of tablinks){
+  				tablink.classList.remove("active-link");
+  			}
+  			for(tabcontent of tabcontents){
+  				tabcontent.classList.remove("active-tab")
+  			}
+  			event.currentTarget.classList.add("active-link");
+  			document.getElementById(tabname).classList.add("active-tab");
+  		}
+  		
+  	</script>
+  	<script type="text/javascript">
+  		var sidemeu = document.getElementById("sidemenu");
+
+  		function openmenu(){
+  			sidemeu.style.right = "0"
+  		}
+  		function closemenu(){
+  			sidemeu.style.right = "-200px";
+  		}
+  	</script>
+		<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyuTy5eBapjklyepQ12LGpeWOjVpomU1X-KlVZIboUO0Omb6M7VXOGdMHqqzWweQiMuEg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+      		msg.innerHTML="Sent successfully"
+      		setTimeout(function(){
+           msg.innerHTML = ""
+         },5000)
+      		form.reset()
+      		})
+      .catch(error => console.error('Error!', error.message))
+ 			 })
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script>
+			var typed = new Typed(".auto-type", {
+				strings: ["DOCTOR OF MEDICINE", "ANESTHESIOLOGIST", "SWEET LITTLE POTATO"],
+				typeSpeed: 100,
+				backSpeed: 150,
+				loop: true
+			})
+		</script>
+
+    
+    <script type="text/javascript">
+    	window.addEventListener('scroll', function(){
+        var scroll = document.querySelector('.scrollTop');
+        scroll.classList.toggle("active", window.scrollY > 500)
+    	})
+
+    	function scrollToTop(){
+    		window.scrollTo({
+    			top: 0
+    		})
+    	}
+
+    		
+    	
+    </script>
+
+    <script>
+    	
+    	var loader = document.getElementById("preloader");
+    	
+    		window.addEventListener("load", function(){
+    			loader.style.display = "none";
+    		})
+
+    </script>
+		
+  </body>
+</html>
